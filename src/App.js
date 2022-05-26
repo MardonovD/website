@@ -1,13 +1,8 @@
-import Form from "./Form";
+import React from "react";
+import "./sass/main.scss";
+
 function App() {
-  return (
-    <div className="App">
-      <Form />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
-
-
-
