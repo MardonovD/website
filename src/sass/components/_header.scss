@@ -21,7 +21,7 @@
       display: inline-block;
       height: 15px;
       background: $white;
-      width: 2px;
+      width: 1.5px;
       margin-left: 20px;
       transform: rotate(10deg);
     }
@@ -32,5 +32,6 @@
     margin-bottom: 20px;
     letter-spacing: 1px;
     font-weight: 600;
+    text-shadow: 3px 3px 3px $white;
   }
 }
