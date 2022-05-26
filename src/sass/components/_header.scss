@@ -2,6 +2,8 @@
   width: 100%;
   height: 75vh;
   @include bgImage(
-    "https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "https://images.pexels.com/photos/4458422/pexels-photo-4458422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   );
+  background-color: rgba(0, 0, 0, 0.6);
+  @include flexCenter;
 }

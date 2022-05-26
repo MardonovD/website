@@ -3,4 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-blend-mode: overlay;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
