@@ -6,13 +6,9 @@ const Header = () => {
       <div className="header__content">
         <h1 className="header__content-h1">About Us</h1>
         <div className="header__content-links">
-          <a href="/home" className="header__content-link">
-            Home
-          </a>
-          <span className="header__content-span">/</span>
-          <a href="/about" className="header__content-link">
-            About Us
-          </a>
+          <a href="/home">Home</a>
+          <span className="header__content-span"></span>
+          <a href="/about">About Us</a>
         </div>
       </div>
     </div>
