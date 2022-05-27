@@ -6,4 +6,9 @@
   height: 500px;
   background-color: rgba(0, 0, 0, 0.7);
   @include flexVertical;
+  color: $white;
+  &__content h1 {
+    font-size: 45px;
+    font-weight: 700;
+  }
 }
