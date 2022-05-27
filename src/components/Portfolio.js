@@ -5,7 +5,7 @@ const Portfolio = () => {
     {
       id: 1,
       image:
-        "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1",
       name: "Davronov Askar",
       expert: "Full-Stack",
     },
@@ -19,7 +19,7 @@ const Portfolio = () => {
     {
       id: 3,
       image:
-        "https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1",
       name: "Davronov Ashur",
       expert: "Flutter",
     },
@@ -37,39 +37,17 @@ const Portfolio = () => {
             </div>
             <div className="col-8">
               <div className="row ">
-                <div className="col-4  pl-15">
-                  <div className="portfolio-card">
-                    <div className="portfolio-card-image">
-                      <img src="" alt="card" />
+                {state.map((user) => (
+                  <div className="col-4  pl-15">
+                    <div className="portfolio-card">
+                      <div className="portfolio-card-image">
+                        <img src={user.image} alt="card" />
+                      </div>
+                      <h5 className="portfolio__card-name"> {user.name}</h5>
+                      <p className="portfolio__card-expert">{user.expert}</p>
                     </div>
-                    <h5 className="portfolio__card-name"> Mardonov Doston</h5>
-                    <p className="portfolio__card-expert">Full-Stack</p>
                   </div>
-                </div>
-                <div className="col-4  pl-15">
-                  <div className="portfolio-card">
-                    <div className="portfolio-card-image">
-                      <img
-                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1"
-                        alt="card"
-                      />
-                    </div>
-                    <h5 className="portfolio__card-name"> Mardonov Doston</h5>
-                    <p className="portfolio__card-expert">Full-Stack</p>
-                  </div>
-                </div>
-                <div className="col-4  pl-15">
-                  <div className="portfolio-card">
-                    <div className="portfolio-card-image">
-                      <img
-                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1"
-                        alt="card"
-                      />
-                    </div>
-                    <h5 className="portfolio__card-name"> Mardonov Doston</h5>
-                    <p className="portfolio__card-expert">Full-Stack</p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
