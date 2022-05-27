@@ -12,4 +12,12 @@
     font-weight: 300;
     padding-left: 50px;
   }
+  &__section {
+    background: #efefef;
+    padding: 60px;
+    text-align: center;
+    &-icon svg {
+      color: $green;
+    }
+  }
 }
