@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Portfolio = () => {
+  const [state] = useState([
+    {
+      id: 1,
+      image:
+        "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      name: "Davronov Askar",
+      expert: "Full-Stack",
+    },
+    {
+      id: 2,
+      image:
+        "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1",
+      name: "Mardonov Doston",
+      expert: "React",
+    },
+    {
+      id: 3,
+      image:
+        "https://images.pexels.com/photos/716411/pexels-photo-716411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      name: "Davronov Ashur",
+      expert: "Flutter",
+    },
+  ]);
   return (
     <div className="portfolio">
       <div className="container">
@@ -17,10 +40,7 @@ const Portfolio = () => {
                 <div className="col-4  pl-15">
                   <div className="portfolio-card">
                     <div className="portfolio-card-image">
-                      <img
-                        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=240&h=750&dpr=1"
-                        alt="card"
-                      />
+                      <img src="" alt="card" />
                     </div>
                     <h5 className="portfolio__card-name"> Mardonov Doston</h5>
                     <p className="portfolio__card-expert">Full-Stack</p>
