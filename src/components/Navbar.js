@@ -5,10 +5,10 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="navbar__content">
-          <div className="navbar__left">
+          <div className="navbar__content-left">
             <h2>DosTon</h2>
           </div>
-          <ul className="navbar__right">
+          <ul className="navbar__content-right">
             <li>
               <a href="">Home</a>
             </li>
