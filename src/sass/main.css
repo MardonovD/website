@@ -254,11 +254,31 @@ body {
 }
 
 .portfolio__content-h3 {
-  font-weight: 800;
-  font-size: 60px;
+  font-weight: 700;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 4px;
   text-shadow: 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio__card {
+  width: 100%;
+  text-align: center;
+  background: white;
+}
+
+.portfolio__card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio__card-name {
+  font-size: 18px;
+}
+
+.portfolio__card-expert {
+  color: #777;
+  font-size: 14px;
 }
 
 .container {
