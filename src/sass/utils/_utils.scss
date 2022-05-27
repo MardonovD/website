@@ -4,6 +4,7 @@
 }
 
 .whiteBg {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   background-color: $white;
   & a {
     color: $black !important;
