@@ -25,7 +25,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="row pl-15">
+        <div className="row pl-15 mt-60">
           <div className="col-4">
             <div className="about__section">
               <div className="about__section-icon">
