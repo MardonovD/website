@@ -213,6 +213,7 @@ body {
 
 .portfolio::before {
   position: absolute;
+  z-index: -1;
   content: "";
   width: 50%;
   height: 100%;
@@ -223,12 +224,27 @@ body {
 
 .portfolio::after {
   position: absolute;
+  z-index: -1;
   content: "";
   width: 50%;
   height: 100%;
   background: #efefef;
   top: 0;
   right: 0;
+}
+
+.portfolio__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  width: 100%;
 }
 
 .container {
