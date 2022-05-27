@@ -14,5 +14,9 @@
   &__card {
     position: absolute;
     bottom: -120px;
+    width: 470px;
+    padding: 80px 40px;
+    background: $green;
+    right: 0;
   }
 }

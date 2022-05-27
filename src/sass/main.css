@@ -172,6 +172,10 @@ body {
 .show__card {
   position: absolute;
   bottom: -120px;
+  width: 470px;
+  padding: 80px 40px;
+  background: #75dab4;
+  right: 0;
 }
 
 .container {
