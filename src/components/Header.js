@@ -1,14 +1,18 @@
-import React from "react";
-
+import React, { useState } from "react";
 const Header = () => {
+  const [state] = useState({
+    heading: "Xush Kelibsiz",
+    link1: "Home",
+    link2: "About Us",
+  });
   return (
     <div className="header">
       <div className="header__content">
-        <h1 className="header__content-h1">Xush Kelibsiz</h1>
+        <h1 className="header__content-h1">{state.heading}</h1>
         <div className="header__content-links">
-          <a href="/home">Home</a>
+          <a href="/home">{state.link1}</a>
           <span className="header__content-span"></span>
-          <a href="/about">About Us</a>
+          <a href="/about">{state.link2}</a>
         </div>
       </div>
     </div>
