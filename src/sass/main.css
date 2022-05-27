@@ -173,9 +173,22 @@ body {
   position: absolute;
   bottom: -120px;
   width: 470px;
+  color: black;
   padding: 80px 40px;
   background: #75dab4;
   right: 0;
+}
+
+.show__card-h6 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.show__card-h4 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .container {
