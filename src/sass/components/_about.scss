@@ -1,0 +1,13 @@
+.about {
+  padding: 120px 0;
+  width: 100%;
+  &-h4 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  &-text p {
+    color: #777;
+    font-size: 15px;
+    line-height: 2;
+  }
+}
