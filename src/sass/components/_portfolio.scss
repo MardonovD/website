@@ -32,12 +32,19 @@
 
   &__content {
     &-h6 {
-      color: #75dab4;
+      color: $green;
       font-weight: 300;
       font-size: 17px;
       text-transform: uppercase;
       letter-spacing: 14px;
       margin-bottom: 5px;
+    }
+    &-h3 {
+      font-weight: 700;
+      font-size: 80px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-shadow: 0 8px rgba(0, 0, 0, 0.05);
     }
   }
 }
