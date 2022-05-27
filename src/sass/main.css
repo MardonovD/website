@@ -169,6 +169,11 @@ body {
   font-weight: 700;
 }
 
+.show__card {
+  position: absolute;
+  bottom: -120px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
