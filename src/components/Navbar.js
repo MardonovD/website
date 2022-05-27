@@ -19,7 +19,11 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar__content">
           <div className="navbar__content-left">
-            <h2>DosTon</h2>
+            <h2
+              className={` ${state ? "heading-scroll" : "navbar__heading-2"}`}
+            >
+              DosTon
+            </h2>
           </div>
           <ul className="navbar__content-right">
             <li>
